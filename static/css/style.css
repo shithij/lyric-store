@@ -1,0 +1,29 @@
+html{
+	background-image: url('/static/images/img.jpg');
+	background-position: center;
+	height: 100%;
+}
+
+#list{
+	background-color: white;
+	opacity: 0.6;
+	font-family: segoe UI;
+	font-size: 10px;
+	width: 1000px;
+    border: 25px blue;
+    padding: 25px;
+    margin: 25px auto;
+}
+
+#lyric{
+
+	background-color: white;
+	opacity: 0.6;
+	font-family: segoe UI;
+	font-size: 20px;
+	width: 1000px;
+    border: 25px blue;
+    padding: 25px;
+    margin: 25px auto;
+
+}

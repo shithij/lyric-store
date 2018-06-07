@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Lyrics list
+	</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	
+</head>
+<body>
+	<div id="list">
+		<h1><center>All the lyrics you need!</center>
+		<ul>
+			{% for (i,j) in zip(songs,singers) %}
+				<li><a href="{{url_for('lyric', song=i.replace(' ','-'), singers=j) }}">{{i}}</a></li>
+			{% endfor %}
+
+		</ul>
+	</div>		
+
+</body>
+</html>

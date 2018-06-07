@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lyrics of the song</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+
+</head>
+<body>
+	<div id="lyric">
+	{% for i in lyrics %}
+		{{i | replace('\n', '<br/>'| safe) }}
+	{% endfor %}
+	</div>
+</body>
+</html>
